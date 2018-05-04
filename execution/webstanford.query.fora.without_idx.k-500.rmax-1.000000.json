@@ -1,0 +1,48 @@
+{
+    "start_time": "2017-09-15 18:56:48",
+    "end_time": "2017-09-15 18:56:49",
+    "command_line": " query --algo fora --prefix data\/ --dataset webstanford --epsilon 0.5 --query_size 1",
+    "config": {
+        "graph_alias": "webstanford",
+        "action": "query",
+        "alpha": "0.20000000000000001",
+        "pfail": "3.5473068846132018e-06",
+        "epsilon": "0.5",
+        "delta": "3.5473068846132018e-06",
+        "idx": "false",
+        "k": "500",
+        "rand-walk & push cost ratio": "8",
+        "query-size": "1",
+        "algo": "fora",
+        "rmax": "9.8250254864295589e-08",
+        "rmax-scale": "1",
+        "omega": "37331049.942227691",
+        "result-dir": ".\/\/execution\/"
+    },
+    "result": {
+        "n": "281904",
+        "m": "2312497",
+        "avg query time(s\/q)": "0.00044822299999999998",
+        "total memory usage(MB)": "60.076000000000001",
+        "total time usage(s)": "0.00044822299999999998",
+        "total time on rand-walks(s)": "2.1529999999999999e-05",
+        "total time on propagation(s)": "0.00033759399999999998",
+        "total time on sorting top-k ppr(s)": "0",
+        "total time ratio on rand-walks(%)": "4.8034125870381486",
+        "total time ratio on propagation(%)": "75.318312536393705",
+        "total number of rand-walks": "134",
+        "total number of rand-walk idx used": "0",
+        "total usage ratio of rand-walk idx": "0",
+        "topk max absolute error": "-nan",
+        "topk avg absolute error": "-nan",
+        "topk max relative error": "-nan",
+        "topk avg relative error": "-nan",
+        "topk precision": "-nan",
+        "topk recall": "-nan"
+    },
+    "timer": {
+        "3": "0.00044822299999999998",
+        "5": "0.00033759399999999998",
+        "6": "2.1529999999999999e-05"
+    }
+}

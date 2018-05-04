@@ -1,0 +1,48 @@
+{
+    "start_time": "2017-10-08 10:14:33",
+    "end_time": "2017-10-08 11:19:22",
+    "command_line": " query --algo fora --prefix ..\/..\/..\/uqswan22\/datasets\/ --dataset twitter --epsilon 0.5 --query_size 5",
+    "config": {
+        "graph_alias": "twitter",
+        "action": "query",
+        "alpha": "0.20000000000000001",
+        "pfail": "2.4008318402159982e-08",
+        "epsilon": "0.5",
+        "delta": "2.4008318402159982e-08",
+        "idx": "false",
+        "k": "500",
+        "rand-walk & push cost ratio": "8",
+        "query-size": "5",
+        "algo": "fora",
+        "rmax": "2.7332820723137e-10",
+        "rmax-scale": "1",
+        "omega": "7596538975.207654",
+        "result-dir": ".\/\/execution\/"
+    },
+    "result": {
+        "n": "41652230",
+        "m": "1468365182",
+        "avg query time(s\/q)": "668.99863787679999",
+        "total memory usage(MB)": "20632.536",
+        "total time usage(s)": "3344.9931893839998",
+        "total time on rand-walks(s)": "2949.9315012970001",
+        "total time on propagation(s)": "393.89393699200002",
+        "total time on sorting top-k ppr(s)": "0",
+        "total time ratio on rand-walks(%)": "88.189462108897374",
+        "total time ratio on propagation(%)": "11.775627473386214",
+        "total number of rand-walks": "3975470921",
+        "total number of rand-walk idx used": "0",
+        "total usage ratio of rand-walk idx": "0",
+        "topk max absolute error": "-nan",
+        "topk avg absolute error": "-nan",
+        "topk max relative error": "-nan",
+        "topk avg relative error": "-nan",
+        "topk precision": "-nan",
+        "topk recall": "-nan"
+    },
+    "timer": {
+        "3": "3344.9931893839998",
+        "5": "393.89393699200002",
+        "6": "2949.9315012970001"
+    }
+}

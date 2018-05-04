@@ -1,0 +1,48 @@
+{
+    "start_time": "2017-09-19 13:09:41",
+    "end_time": "2017-09-19 13:10:02",
+    "command_line": " query --algo fora --prefix ..\/graphdata\/ --dataset pokec --epsilon 0.5 --query_size 1",
+    "config": {
+        "graph_alias": "pokec",
+        "action": "query",
+        "alpha": "0.20000000000000001",
+        "pfail": "6.124437546966781e-07",
+        "epsilon": "0.5",
+        "delta": "6.124437546966781e-07",
+        "idx": "false",
+        "k": "500",
+        "rand-walk & push cost ratio": "8",
+        "query-size": "1",
+        "algo": "fora",
+        "rmax": "1.0541227647837395e-08",
+        "rmax-scale": "1",
+        "omega": "244903402.04055351",
+        "result-dir": ".\/\/execution\/"
+    },
+    "result": {
+        "n": "1632803",
+        "m": "30622564",
+        "avg query time(s\/q)": "11.587816017",
+        "total memory usage(MB)": "529.75599999999997",
+        "total time usage(s)": "11.587816017",
+        "total time on rand-walks(s)": "10.975028886",
+        "total time on propagation(s)": "0.60755743399999995",
+        "total time on sorting top-k ppr(s)": "0",
+        "total time ratio on rand-walks(%)": "94.711797890983036",
+        "total time ratio on propagation(%)": "5.2430711111453432",
+        "total number of rand-walks": "24231962",
+        "total number of rand-walk idx used": "0",
+        "total usage ratio of rand-walk idx": "0",
+        "topk max absolute error": "-nan",
+        "topk avg absolute error": "-nan",
+        "topk max relative error": "-nan",
+        "topk avg relative error": "-nan",
+        "topk precision": "-nan",
+        "topk recall": "-nan"
+    },
+    "timer": {
+        "3": "11.587816017",
+        "5": "0.60755743399999995",
+        "6": "10.975028886"
+    }
+}

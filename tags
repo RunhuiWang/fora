@@ -1,0 +1,664 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL	mylib.h	63;"	d
+ALPHA_DEFAULT	config.h	/^const double ALPHA_DEFAULT = 0.2;$/;"	v
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+ASSERT	mylib.h	512;"	d
+ASSERTMSG	mylib.h	696;"	d
+ASSERTMSG	mylib.h	705;"	d
+ASSERTT	mylib.h	516;"	d
+BATCH_TOPK	config.h	/^const string BATCH_TOPK = "batch-topk";$/;"	v
+BIPPR	config.h	/^const string BIPPR = "bippr";$/;"	v
+BIPPR_QUERY	config.h	/^const int BIPPR_QUERY = 2;$/;"	v
+BUILD	config.h	/^const string BUILD = "build";$/;"	v
+BUILD_H	build.h	3;"	d
+BWD_LU	config.h	/^const int BWD_LU = 9;$/;"	v
+BinaryHeap	heap.h	/^    BinaryHeap(int maxn, Compare _comp = std::less<T>()) {$/;"	f	class:BinaryHeap
+BinaryHeap	heap.h	/^class BinaryHeap {$/;"	c
+BinarySearch	mylib.h	/^    int BinarySearch( _T& data )$/;"	f	class:iVector
+Bwdidx	config.h	/^typedef pair<iMap<double>, iMap<double>> Bwdidx;$/;"	t
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/home\/uqrwan14\/fora-parallel\/fora$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/home\/uqrwan14\/fora-parallel\/fora$/;"	m
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+Config	config.h	/^class Config {$/;"	c
+Counter	mylib.h	/^    Counter(int id = 0) {$/;"	f	class:Counter
+Counter	mylib.h	/^class Counter {$/;"	c
+DEC	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d	file:
+DEC	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+EQUALS	Makefile	/^EQUALS = =$/;"	m
+F	mylib.h	49;"	d
+FILESEP	config.h	6;"	d
+FILESEP	config.h	8;"	d
+FOR	mylib.h	64;"	d
+FORA	config.h	/^const string FORA = "fora";$/;"	v
+FORA_QUERY	config.h	/^const int FORA_QUERY = 3;$/;"	v
+FORA_QUERY_H	query.h	3;"	d
+FWDPUSH	config.h	/^const string FWDPUSH = "fwdpush";$/;"	v
+FWD_LU	config.h	/^const int FWD_LU = 5;$/;"	v
+Fwdidx	config.h	/^typedef pair<iMap<double>, iMap<double>> Fwdidx;$/;"	t
+GEN_EXACT_TOPK	config.h	/^const string GEN_EXACT_TOPK = "gen-exact-topk";$/;"	v
+GEN_SS_QUERY	config.h	/^const string GEN_SS_QUERY = "generate-ss-query";$/;"	v
+Graph	graph.h	/^    Graph(string data_folder) {$/;"	f	class:Graph
+Graph	graph.h	/^class Graph {$/;"	c
+Green	mylib.h	/^const string Green = "\\033[0;32m";$/;"	v
+HEAD_INFO	fora.cpp	3;"	d	file:
+HEX	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+HEX	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+HUBPPR	config.h	/^const string HUBPPR = "hubppr";$/;"	v
+HUBPPR_QUERY	config.h	/^const int HUBPPR_QUERY = 4;$/;"	v
+HubBwdidx	config.h	/^typedef pair<map<int, double>, map<int, double>> HubBwdidx;$/;"	t
+HubBwdidxWithResidual	config.h	/^typedef pair<double, HubBwdidx> HubBwdidxWithResidual;$/;"	t
+ID_VOID_MAIN	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+IF_TRACE	mylib.h	492;"	d
+IF_TRACE	mylib.h	501;"	d
+INFO	mylib.h	513;"	d
+MAXN	mylib.h	/^const int MAXN = 1000000;$/;"	v
+MC	config.h	/^const string MC = "montecarlo";$/;"	v
+MC_QUERY	config.h	/^const int MC_QUERY = 1;$/;"	v
+MP	mylib.h	48;"	d
+NUM_OF_QUERY	config.h	/^const int NUM_OF_QUERY = 20;$/;"	v
+PI_QUERY	config.h	/^const int PI_QUERY = 10;$/;"	v
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
+PPR_HEAP_H	heap.h	6;"	d
+PRINT_PRECISION_FOR_DIF_K	query.h	13;"	d
+PredResult	algo.h	/^    PredResult(double mae=0, double mre=0, double rec=0, double pre=0, int count=0):$/;"	f	struct:PredResult
+PredResult	algo.h	/^struct PredResult{$/;"	s
+QUERY	config.h	/^const string QUERY = "query";$/;"	v
+RG_COST	config.h	/^const double RG_COST = 1;$/;"	v
+RM	Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RONDOM_WALK	config.h	/^const int RONDOM_WALK = 6;$/;"	v
+RUN_TIME	mylib.h	488;"	d
+Red	mylib.h	/^const string Red = "\\033[0;31m";$/;"	v
+Reset	mylib.h	/^const string Reset = "\\033[0m";$/;"	v
+Result	config.h	/^class Result {$/;"	c
+RwIdx	config.h	/^typedef std::vector< std::vector<int> > RwIdx; \/\/random walk idx$/;"	t
+S	mylib.h	50;"	d
+SEED	algo.h	/^unsigned int SEED=1;$/;"	v
+SG_RW_COST	config.h	/^const double SG_RW_COST = 8.0;$/;"	v
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIZE	mylib.h	62;"	d
+SORT_MAP	config.h	/^const int SORT_MAP = 8;$/;"	v
+SOURCE_DIST	config.h	/^const int SOURCE_DIST = 7;$/;"	v
+SUFFIXES	Makefile	/^SUFFIXES =$/;"	m
+Saver	config.h	/^namespace Saver {$/;"	n
+Sort	mylib.h	/^    void Sort()$/;"	f	class:iVector
+TIMES_PER_SEC	mylib.h	54;"	d
+TOPK	config.h	/^const string TOPK = "topk";$/;"	v
+TOPNUM	mylib.h	/^const int TOPNUM = 1;$/;"	v
+TRACE	mylib.h	491;"	d
+TRACE	mylib.h	500;"	d
+TRACE_LINE	mylib.h	493;"	d
+TRACE_LINE	mylib.h	502;"	d
+TRACE_LINE_END	mylib.h	496;"	d
+TRACE_LINE_END	mylib.h	505;"	d
+TRACE_LINE_SKIP	mylib.h	495;"	d
+TRACE_LINE_SKIP	mylib.h	504;"	d
+TRACE_LOG	mylib.h	498;"	d
+TRACE_LOG	mylib.h	506;"	d
+TRACE_SKIP	mylib.h	494;"	d
+TRACE_SKIP	mylib.h	503;"	d
+Timer	mylib.h	/^    Timer(int id, string desc = "", bool showOnDestroy = false) {$/;"	f	class:Timer
+Timer	mylib.h	/^class Timer {$/;"	c
+VectorDefaultSize	mylib.h	/^const int VectorDefaultSize=20;$/;"	v
+_CRT_SECURE_NO_DEPRECATE	fora.cpp	2;"	d	file:
+__ALGO_H__	algo.h	3;"	d
+__CONFIG_H__	config.h	2;"	d
+__GRAPH_H__	graph.h	2;"	d
+__MYLIB_H__	mylib.h	2;"	d
+___debug	mylib.h	/^void ___debug(string t, T0 t0, T1 t1, T2 t2, T3 t3, T4 t4, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, T0 t0, T1 t1, T2 t2, T3 t3, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, T0 t0, T1 t1, T2 t2, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, T0 t0, T1 t1, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, T0 t0, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, deque<T0> t0, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, vector<T0> t0, ostream &os) {$/;"	f
+___debug	mylib.h	/^void ___debug(string t, vector<pair<T0, T1> > t0, ostream &os) {$/;"	f
+__expand_nv	mylib.h	442;"	d
+__n_variable	mylib.cpp	/^string __n_variable(string t, int n) {$/;"	f
+action	config.h	/^    string action = ""; \/\/ query\/generate index, etc..$/;"	m	class:Config
+add	mylib.h	/^    void add(int x) {$/;"	f	class:Counter
+algo	config.h	/^    string algo;$/;"	m	class:Config
+alpha	config.h	/^    double alpha = ALPHA_DEFAULT;$/;"	m	class:Config
+alpha	graph.h	/^    double alpha;$/;"	m	class:Graph
+as_map	heap.h	/^    map<int, T> as_map() {$/;"	f	class:BinaryHeap
+assert_file_exist	config.cpp	/^void assert_file_exist(string desc, string name) {$/;"	f
+assign	mylib.h	/^    void assign( iVector& t )$/;"	f	class:iVector
+avg_query_time	config.h	/^    double avg_query_time;$/;"	m	class:Result
+batch_topk	query.h	/^void batch_topk(Graph& graph){$/;"	f
+bippr_query	query.h	/^void bippr_query(int v, const Graph& graph){$/;"	f
+bippr_query_topk	query.h	/^void bippr_query_topk(int v, const Graph& graph){$/;"	f
+bippr_setting	algo.h	/^inline void bippr_setting(int n, long long m){$/;"	f
+build	build.h	/^void build(const Graph& graph){$/;"	f
+bwd_idx	algo.h	/^Bwdidx bwd_idx;$/;"	v
+bwd_with_hub_oracle	algo.h	/^void bwd_with_hub_oracle(const Graph& graph, int t){$/;"	f
+calculate_lambda	algo.h	/^inline double calculate_lambda(double rsum, double pfail, double upper_bound, long total_rw_num){$/;"	f
+clean	mylib.h	/^    void clean()$/;"	f	class:iVector
+clean	mylib.h	/^    void clean()$/;"	f	struct:iMap
+clear	heap.h	/^    void clear() {$/;"	f	class:BinaryHeap
+clearAll	mylib.h	/^    static void clearAll() {$/;"	f	class:Timer
+cmp	algo.h	/^inline bool cmp(double x, double y){$/;"	f
+cmp	graph.h	/^    static bool cmp(const pair<int, double> &t1, const pair<int, double> &t2) {$/;"	f	class:Graph
+cnt	mylib.cpp	/^int Counter::cnt[1000] = {0};$/;"	m	class:Counter	file:
+cnt	mylib.h	/^    static int cnt[1000];$/;"	m	class:Counter
+combine	config.h	/^    static ptree combine;$/;"	m	namespace:Saver
+combine_args	mylib.h	/^static vector<string> combine_args(int argc, char **argv) {$/;"	f
+comp	heap.h	/^    Compare comp;$/;"	m	class:BinaryHeap
+compute_ppr_with_fwdidx	query.h	/^void compute_ppr_with_fwdidx(const Graph& graph, double check_rsum){$/;"	f
+compute_ppr_with_fwdidx_topk_with_bound	query.h	/^void compute_ppr_with_fwdidx_topk_with_bound(const Graph& graph, double check_rsum){$/;"	f
+compute_ppr_with_reserve	query.h	/^void compute_ppr_with_reserve(){$/;"	f
+compute_precision	algo.h	/^void compute_precision(int v){$/;"	f
+compute_precision_for_dif_k	algo.h	/^void compute_precision_for_dif_k(int v){$/;"	f
+concurrency	algo.h	/^unsigned concurrency;$/;"	v
+config	config.cpp	/^Config config;$/;"	v
+count_hub_dest	algo.h	/^void count_hub_dest(){$/;"	f
+cur	mylib.h	/^    int cur;$/;"	m	struct:iMap
+data_folder	graph.h	/^    string data_folder;$/;"	m	class:Graph
+dbar	config.h	/^    double dbar = 0;$/;"	m	class:Config
+dec	mylib.h	/^    void dec( int p )$/;"	f	struct:iMap
+delete_top	heap.h	/^    void delete_top() {$/;"	f	class:BinaryHeap
+delta	config.h	/^    double delta = 0;$/;"	m	class:Config
+deserialize_hub_bwd_idx	build.h	/^inline void deserialize_hub_bwd_idx(){$/;"	f
+deserialize_hub_fwd_idx	build.h	/^inline void deserialize_hub_fwd_idx(){$/;"	f
+deserialize_idx	build.h	/^inline void deserialize_idx(){$/;"	f
+display	heap.h	/^    void display() {$/;"	f	class:BinaryHeap
+display_fwdidx	algo.h	/^inline void display_fwdidx(){$/;"	f
+display_ppr	algo.h	/^inline void display_ppr(){$/;"	f
+display_precision_for_dif_k	algo.h	/^inline void display_precision_for_dif_k(){$/;"	f
+display_setting	algo.h	/^inline void display_setting(){$/;"	f
+display_time_usage	algo.h	/^static void display_time_usage(int used_counter, int query_size){$/;"	f
+dpair	mylib.h	/^typedef pair<double, double> dpair;$/;"	t
+drand	algo.h	/^inline static double drand(){$/;"	f
+drand_thd	algo.h	/^inline static double drand_thd(int core_id){$/;"	f
+epsilon	config.h	/^    double epsilon = 0;$/;"	m	class:Config
+erase	mylib.h	/^    void erase( int p )$/;"	f	struct:iMap
+exact_pprs_folder	config.h	/^    string exact_pprs_folder;$/;"	m	class:Config
+exact_topk_pprs	algo.h	/^map< int, vector< pair<int ,double> > > exact_topk_pprs;$/;"	v
+exe_result_dir	config.h	/^    string exe_result_dir = parent_folder;$/;"	m	class:Config
+exist	mylib.h	/^    bool exist( int p )$/;"	f	struct:iMap
+exists_test	config.cpp	/^bool exists_test(const std::string &name) {$/;"	f
+extract_top	heap.h	/^    pair<T, int> extract_top() {$/;"	f	class:BinaryHeap
+file_exists_test	mylib.h	/^inline bool file_exists_test(const std::string &name) {$/;"	f
+fora_query_basic	query.h	/^void fora_query_basic(int v, const Graph& graph){$/;"	f
+fora_query_topk_with_bound	query.h	/^void fora_query_topk_with_bound(int v, const Graph& graph){$/;"	f
+fora_setting	algo.h	/^inline void fora_setting(int n, long long m){$/;"	f
+forward_local_update_linear	algo.h	/^void forward_local_update_linear(int s, const Graph &graph, double& rsum, double rmax, double init_residual = 1.0){$/;"	f
+forward_local_update_linear_topk	algo.h	/^void forward_local_update_linear_topk(int s, const Graph &graph, double& rsum, double rmax, double lowest_rmax, vector<int>& forward_from){$/;"	f
+free_mem	mylib.h	/^    void free_mem()$/;"	f	class:iVector
+free_mem	mylib.h	/^    void free_mem()$/;"	f	struct:iMap
+fwd_idx	algo.h	/^Fwdidx fwd_idx;$/;"	v
+fwd_power_iteration	query.h	/^void fwd_power_iteration(const Graph& graph, int start, unordered_map<int, double>& map_ppr){$/;"	f
+fwd_with_hub_oracle	algo.h	/^void fwd_with_hub_oracle(const Graph& graph, int start){$/;"	f
+fwdpush_setting	algo.h	/^inline void fwdpush_setting(int n, long long m){$/;"	f
+g	graph.h	/^    vector<vector<int>> g;$/;"	m	class:Graph
+gen_exact_topk	query.h	/^void gen_exact_topk(const Graph& graph){$/;"	f
+generate_accumulated_fwd_randwalk	algo.h	/^inline void generate_accumulated_fwd_randwalk(int s, const Graph& graph, unsigned long long num_rw){$/;"	f
+generate_ss_query	algo.h	/^inline void generate_ss_query(int n){$/;"	f
+get	mylib.h	/^    _T get( int p )$/;"	f	struct:iMap
+get_avg_degree	graph.h	/^    double get_avg_degree() const {$/;"	f	class:Graph
+get_current_time_str	config.h	/^    static string get_current_time_str() {$/;"	f	namespace:Saver
+get_current_time_str	mylib.h	/^static string get_current_time_str() {$/;"	f
+get_data	config.h	/^    ptree get_data() {$/;"	f	class:Config
+get_data	config.h	/^    ptree get_data() {$/;"	f	class:Result
+get_elements	heap.h	/^    vector<pair<T, int>>& get_elements(){$/;"	f	class:BinaryHeap
+get_exact_topk_ppr_file	build.h	/^inline string get_exact_topk_ppr_file(){$/;"	f
+get_graph_folder	config.h	/^    string get_graph_folder() {$/;"	f	class:Config
+get_hub_bwd_idx_file_name	build.h	/^inline string get_hub_bwd_idx_file_name(){$/;"	f
+get_hub_fwd_idx_file_name	build.h	/^inline string get_hub_fwd_idx_file_name(){$/;"	f
+get_hub_fwd_idx_info_file_name	build.h	/^inline string get_hub_fwd_idx_info_file_name(){$/;"	f
+get_idx_file_name	build.h	/^inline string get_idx_file_name(){$/;"	f
+get_idx_info_name	build.h	/^inline string get_idx_info_name(){$/;"	f
+get_proc_memory	mylib.h	/^inline int get_proc_memory(){$/;"	f
+get_ram_size	build.h	/^inline size_t get_ram_size(){$/;"	f
+get_time_path	config.h	/^    static string get_time_path() {$/;"	f	namespace:Saver
+get_time_path	fora.cpp	/^string get_time_path() {$/;"	f
+get_topk	query.h	/^void get_topk(int v, Graph &graph){$/;"	f
+get_value	heap.h	/^    T get_value(int idx) {$/;"	f	class:BinaryHeap
+gr	graph.h	/^    vector<vector<int>> gr;$/;"	m	class:Graph
+graph_alias	config.h	/^    string graph_alias;$/;"	m	class:Config
+graph_location	config.h	/^    string graph_location;$/;"	m	class:Config
+has_idx	heap.h	/^    bool has_idx(int idx) {$/;"	f	class:BinaryHeap
+heap	heap.h	/^    vector<pair<T, int>> heap;$/;"	m	class:BinaryHeap
+heap_idx	heap.h	/^    vector<int> heap_idx;$/;"	m	class:BinaryHeap
+heapifydown	heap.h	/^    void heapifydown(int in) {$/;"	f	class:BinaryHeap
+heapifyup	heap.h	/^    void heapifyup(int in) {$/;"	f	class:BinaryHeap
+heapswap	heap.h	/^    void heapswap(int x, int y) {$/;"	f	class:BinaryHeap
+hit_idx_ratio	config.h	/^    double hit_idx_ratio;$/;"	m	class:Result
+hub_bwd_idx	algo.h	/^map<int, vector<HubBwdidxWithResidual>> hub_bwd_idx;$/;"	v
+hub_counter	algo.h	/^iMap<int> hub_counter;$/;"	v
+hub_fwd_idx	algo.h	/^vector<int> hub_fwd_idx;$/;"	v
+hub_fwd_idx_cp_pointers	algo.h	/^map<int, vector<unsigned long long> > hub_fwd_idx_cp_pointers;$/;"	v
+hub_fwd_idx_ptrs	algo.h	/^vector<vector<unsigned long long>> hub_fwd_idx_ptrs;$/;"	v
+hub_fwd_idx_size	algo.h	/^vector<int> hub_fwd_idx_size;$/;"	v
+hub_fwd_idx_size_k	algo.h	/^iMap<int> hub_fwd_idx_size_k;$/;"	v
+hub_sample_number	algo.h	/^vector<int> hub_sample_number;$/;"	v
+hub_space_consum	config.h	/^    unsigned int hub_space_consum = 1;$/;"	m	class:Config
+hubppr_query	query.h	/^void hubppr_query(int s, const Graph& graph){$/;"	f
+hubppr_query_topk_martingale	query.h	/^void hubppr_query_topk_martingale(int s, const Graph& graph) {$/;"	f
+hubppr_topk_setting	algo.h	/^inline void hubppr_topk_setting(int n, long long m){$/;"	f
+iMap	mylib.h	/^    iMap()$/;"	f	struct:iMap
+iMap	mylib.h	/^    iMap(int size){$/;"	f	struct:iMap
+iMap	mylib.h	/^struct iMap$/;"	s
+iVector	mylib.h	/^    iVector( unsigned int n )$/;"	f	class:iVector
+iVector	mylib.h	/^    iVector()$/;"	f	class:iVector
+iVector	mylib.h	/^class iVector$/;"	c
+id	mylib.h	/^    int id;$/;"	m	class:Timer
+if_stop	algo.h	/^bool if_stop(){$/;"	f
+inc	mylib.h	/^    void inc( int p )$/;"	f	struct:iMap
+inc	mylib.h	/^    void inc( int p , int x )$/;"	f	struct:iMap
+info_arch	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+init	config.h	/^    static void init() {$/;"	f	namespace:Saver
+init_graph	graph.h	/^    void init_graph() {$/;"	f	class:Graph
+init_keys	mylib.h	/^    void init_keys(int n){$/;"	f	struct:iMap
+init_multi_setting	algo.h	/^inline void init_multi_setting(int n){$/;"	f
+init_nm	graph.h	/^    void init_nm() {$/;"	f	class:Graph
+init_parameter	graph.h	/^static void init_parameter(Config &config, const Graph &graph) {$/;"	f
+initialize	mylib.h	/^    void initialize( int n )$/;"	f	struct:iMap
+insert	heap.h	/^    void insert(int index, T element) {$/;"	f	class:BinaryHeap
+insert	mylib.h	/^    void insert( int p , _T d )$/;"	f	struct:iMap
+int64	mylib.h	/^typedef long long int64;$/;"	t
+int8	mylib.h	/^typedef char int8;$/;"	t
+ipair	mylib.h	/^typedef pair<int, int> ipair;$/;"	t
+k	config.h	/^    unsigned int k = 500;$/;"	m	class:Config
+ks	algo.h	/^vector<int> ks;$/;"	v
+kth_ppr	algo.h	/^double kth_ppr(){$/;"	f
+left	heap.h	/^    int left(int parent) {$/;"	f	class:BinaryHeap
+load_exact_topk_ppr	build.h	/^inline void load_exact_topk_ppr(){$/;"	f
+load_hubppr_oracle	build.h	/^void load_hubppr_oracle(const Graph& graph){$/;"	f
+load_ss_query	algo.h	/^void load_ss_query(vector<int>& queries){$/;"	f
+loc	graph.h	/^    vector<int> loc;$/;"	m	class:Graph
+lower_bounds	algo.h	/^iMap<double> lower_bounds;$/;"	v
+lrand	algo.h	/^inline static unsigned long lrand() {$/;"	f
+lrand_thd	algo.h	/^inline static unsigned long lrand_thd(int core_id) {$/;"	f
+ltrim	mylib.h	/^static inline string &ltrim(string &s) {$/;"	f
+m	config.h	/^    long long m;$/;"	m	class:Result
+m	graph.h	/^    long long m;$/;"	m	class:Graph
+m_data	mylib.h	/^    _T* m_data;$/;"	m	class:iVector
+m_data	mylib.h	/^    _T* m_data;$/;"	m	struct:iMap
+m_num	mylib.h	/^    int m_num;$/;"	m	struct:iMap
+m_num	mylib.h	/^    unsigned int m_num;$/;"	m	class:iVector
+m_size	mylib.h	/^    unsigned int m_size;$/;"	m	class:iVector
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	fora.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+map_lower_bounds	algo.h	/^vector<pair<int, double>> map_lower_bounds;$/;"	v
+max_iter_num	config.h	/^    unsigned int max_iter_num = 100;$/;"	m	class:Config
+modify	heap.h	/^    void modify(int index, T newvalue) {$/;"	f	class:BinaryHeap
+montecarlo_query	query.h	/^void montecarlo_query(int v, const Graph& graph){$/;"	f
+montecarlo_query_topk	query.h	/^void montecarlo_query_topk(int v, const Graph& graph){$/;"	f
+montecarlo_setting	algo.h	/^inline void montecarlo_setting(){$/;"	f
+multi_build	build.h	/^void multi_build(const Graph& graph){$/;"	f
+multi_power_iter	query.h	/^void multi_power_iter(const Graph& graph, const vector<int>& source, unordered_map<int, vector<pair<int ,double>>>& map_topk_ppr ){$/;"	f
+multithread	config.h	/^    bool multithread = false;$/;"	m	class:Config
+multithread_param	config.h	/^    double multithread_param = 1.0;$/;"	m	class:Config
+myid	mylib.h	/^    int myid = 0;$/;"	m	class:Counter
+n	config.h	/^    int n;$/;"	m	class:Result
+n	graph.h	/^    int n;$/;"	m	class:Graph
+nil	mylib.h	/^    _T nil; $/;"	m	struct:iMap
+node_order	graph.h	/^    vector<pair<int, double>> node_order;$/;"	m	class:Graph
+node_rank	graph.h	/^    vector<int> node_rank;$/;"	m	class:Graph
+node_score	graph.h	/^    vector<double> node_score;$/;"	m	class:Graph
+notexist	mylib.h	/^    bool notexist( int p )$/;"	f	struct:iMap
+num_hit_idx	algo.h	/^atomic<unsigned long long> num_hit_idx;$/;"	v
+num_iter_topk	algo.h	/^long num_iter_topk;$/;"	v
+num_randwalk	config.h	/^    double num_randwalk;$/;"	m	class:Result
+num_rw_idx_use	config.h	/^    double num_rw_idx_use;$/;"	m	class:Result
+num_total_rw	algo.h	/^atomic<unsigned long long> num_total_rw;$/;"	v
+occur	mylib.h	/^    iVector<int> occur;$/;"	m	struct:iMap
+omega	config.h	/^    double omega; \/\/ 1\/omega  omega = # of random walk$/;"	m	class:Config
+operator []	mylib.h	/^    _T& operator[](  int p )$/;"	f	struct:iMap
+operator []	mylib.h	/^    _T& operator[]( unsigned int i )$/;"	f	class:iVector
+parent	heap.h	/^    int parent(int child) {$/;"	f	class:BinaryHeap
+parent_folder	config.h	/^const string parent_folder = "..\/..\/";$/;"	v
+parent_folder	config.h	/^const string parent_folder = string(".\/") + FILESEP;$/;"	v
+pfail	config.h	/^    double pfail = 0;$/;"	m	class:Config
+ppr	algo.h	/^iMap<double> ppr;$/;"	v
+ppr_decay_alpha	config.h	/^    double ppr_decay_alpha = 0.77;$/;"	m	class:Config
+pred_results	algo.h	/^unordered_map<int, PredResult> pred_results;$/;"	v
+prefix	config.h	/^    string prefix = "d:\\\\dropbox\\\\research\\\\data\\\\";$/;"	m	class:Config
+program_start	mylib.h	/^static void program_start(int argc, char **argv) {$/;"	f
+program_stop	mylib.h	/^static void program_stop() {$/;"	f
+propagation_time	config.h	/^    double propagation_time;$/;"	m	class:Result
+propagation_time_ratio	config.h	/^    double propagation_time_ratio;$/;"	m	class:Result
+push_back	mylib.h	/^    void push_back( _T d )$/;"	f	class:iVector
+push_back	mylib.h	/^    void push_back( const _T* p, unsigned int len )$/;"	f	class:iVector
+query	query.h	/^void query(Graph& graph){$/;"	f
+query_size	config.h	/^    unsigned int query_size = 1000;$/;"	m	class:Config
+random_walk	algo.h	/^inline int random_walk(int start, const Graph& graph){$/;"	f
+random_walk_thd	algo.h	/^inline int random_walk_thd(int start, const Graph& graph, int core_id){$/;"	f
+random_walk_with_compressed_forward_oracle	algo.h	/^inline int random_walk_with_compressed_forward_oracle(int start, const Graph &graph) {$/;"	f
+randwalk_time	config.h	/^    double randwalk_time;$/;"	m	class:Result
+randwalk_time_ratio	config.h	/^    double randwalk_time_ratio;$/;"	m	class:Result
+rdtsc	mylib.cpp	/^uint64 rdtsc() {$/;"	f
+rdtsc	mylib.cpp	/^uint64 rdtsc(void)$/;"	f
+re_allocate	mylib.h	/^    void re_allocate( unsigned int size )$/;"	f	class:iVector
+real_topk_source_count	algo.h	/^    int real_topk_source_count;$/;"	m	struct:PredResult
+real_topk_source_count	config.h	/^    int real_topk_source_count;$/;"	m	class:Result
+remove	mylib.h	/^    bool remove( _T& x )$/;"	f	class:iVector
+remove_unsorted	mylib.h	/^    bool remove_unsorted( _T& x )$/;"	f	class:iVector
+replace	mylib.h	/^static string replace(std::string str, const std::string &from, const std::string &to) {$/;"	f
+reserve_maps	algo.h	/^vector<map<int, double>> reserve_maps;$/;"	v
+reset	mylib.h	/^    static void reset(int id){$/;"	f	class:Timer
+reset_one_values	mylib.h	/^    void reset_one_values(){$/;"	f	struct:iMap
+reset_zero_values	mylib.h	/^    void reset_zero_values(){$/;"	f	struct:iMap
+residual_maps	algo.h	/^vector<unordered_map<int, double>> residual_maps;$/;"	v
+result	config.cpp	/^Result result;$/;"	v
+reverse_local_update_heap	algo.h	/^static void reverse_local_update_heap(int t, const Graph &graph, double init_residual = 1) {$/;"	f
+reverse_local_update_linear	algo.h	/^static void reverse_local_update_linear(int t, const Graph &graph, double init_residual = 1) {$/;"	f
+reverse_local_update_topk	algo.h	/^int reverse_local_update_topk(int s, int t, map<int, double>& map_reserve, double rmax, unordered_map<int, double>& map_residual, const Graph &graph) {$/;"	f
+right	heap.h	/^    int right(int parent) {$/;"	f	class:BinaryHeap
+rmax	config.h	/^    double rmax; \/\/ identical to r_max$/;"	m	class:Config
+rmax_scale	config.h	/^    double rmax_scale = 1.0;$/;"	m	class:Config
+rtrim	mylib.h	/^static inline string &rtrim(string &s) {$/;"	f
+rw_cost_ratio	config.h	/^    double rw_cost_ratio = 8.0;\/\/8.0;$/;"	m	class:Config
+rw_counter	algo.h	/^iMap<int> rw_counter;$/;"	v
+rw_idx	algo.h	/^vector<int> rw_idx;$/;"	v
+rw_idx_info	algo.h	/^vector< pair<unsigned long long, unsigned long> > rw_idx_info;$/;"	v
+save_exact_topk_ppr	build.h	/^inline void save_exact_topk_ppr(){$/;"	f
+save_json	config.h	/^    static void save_json(Config &config, Result &result, vector<string> args) {$/;"	f	namespace:Saver
+serialize_idx	build.h	/^inline void serialize_idx(){$/;"	f
+set_martingale_bound	algo.h	/^void set_martingale_bound(double lambda, unsigned long long total_num_rw, int t, double reserve, double rmax, $/;"	f
+set_ppr_bounds	algo.h	/^void set_ppr_bounds(const Graph& graph, double rsum, long total_rw_num){$/;"	f
+set_result	algo.h	/^static void set_result(const Graph& graph, int used_counter, int query_size){$/;"	f
+show	mylib.h	/^    static void show() {$/;"	f	class:Counter
+show	mylib.h	/^    static void show(bool debug = false) {$/;"	f	class:Timer
+showOnDestroy	mylib.h	/^    bool showOnDestroy;$/;"	m	class:Timer
+single_build	build.h	/^void single_build(const Graph& graph, int start, int end, vector<int>& rw_data, unordered_map<int, pair<int, int> >& rw_info_map, int core_id){$/;"	f
+size	heap.h	/^    int size() {$/;"	f	class:BinaryHeap
+sorted_insert	mylib.h	/^    void sorted_insert( _T& x )$/;"	f	class:iVector
+source_dist_time	config.h	/^    double source_dist_time;$/;"	m	class:Result
+source_dist_time_ratio	config.h	/^    double source_dist_time_ratio;$/;"	m	class:Result
+split_line	algo.h	/^inline void split_line(){$/;"	f
+startTime	mylib.h	/^    std::chrono::steady_clock::time_point startTime;$/;"	m	class:Timer
+threshold	algo.h	/^double threshold = 0.0;$/;"	v
+timeUsed	mylib.cpp	/^vector<double> Timer::timeUsed;$/;"	m	class:Timer	file:
+timeUsed	mylib.h	/^    static vector<double> timeUsed;$/;"	m	class:Timer
+timeUsedDesc	mylib.cpp	/^vector<string> Timer::timeUsedDesc;$/;"	m	class:Timer	file:
+timeUsedDesc	mylib.h	/^    static vector<string> timeUsedDesc;$/;"	m	class:Timer
+toStr	mylib.cpp	/^string toStr(T t) {$/;"	f
+to_str	mylib.h	/^static string to_str(double t) {$/;"	f
+topk	query.h	/^void topk(Graph& graph){$/;"	f
+topk_avg_abs_err	algo.h	/^    double topk_avg_abs_err;$/;"	m	struct:PredResult
+topk_avg_abs_err	config.h	/^    double topk_avg_abs_err;$/;"	m	class:Result
+topk_avg_relative_err	algo.h	/^    double topk_avg_relative_err;$/;"	m	struct:PredResult
+topk_avg_relative_err	config.h	/^    double topk_avg_relative_err;$/;"	m	class:Result
+topk_filter	algo.h	/^iMap<int> topk_filter;$/;"	v
+topk_max_abs_err	config.h	/^    double topk_max_abs_err;$/;"	m	class:Result
+topk_max_relative_err	config.h	/^    double topk_max_relative_err;$/;"	m	class:Result
+topk_of	algo.h	/^double topk_of(vector< pair<int, double> >& top_k){$/;"	f
+topk_ppr	algo.h	/^double topk_ppr(){$/;"	f
+topk_pprs	algo.h	/^vector< pair<int ,double> > topk_pprs;$/;"	v
+topk_precision	algo.h	/^    double topk_precision;$/;"	m	struct:PredResult
+topk_precision	config.h	/^    double topk_precision;$/;"	m	class:Result
+topk_recall	algo.h	/^    double topk_recall;$/;"	m	struct:PredResult
+topk_recall	config.h	/^    double topk_recall;$/;"	m	class:Result
+topk_sort_time	config.h	/^    double topk_sort_time;$/;"	m	class:Result
+topk_sort_time_ratio	config.h	/^    double topk_sort_time_ratio;$/;"	m	class:Result
+total_mem_usage	config.h	/^    double total_mem_usage;$/;"	m	class:Result
+total_time_usage	config.h	/^    double total_time_usage;$/;"	m	class:Result
+trim	mylib.h	/^static inline string &trim(string &s) { return ltrim(rtrim(s)); }$/;"	f
+uint	mylib.h	/^typedef unsigned int uint;$/;"	t
+uint64	mylib.h	/^typedef unsigned long long uint64;$/;"	t
+uint8	mylib.h	/^typedef unsigned char uint8;$/;"	t
+unique	mylib.h	/^    void unique()$/;"	f	class:iVector
+updated_pprs	query.h	/^iMap<int> updated_pprs;$/;"	v
+upper_bounds	algo.h	/^iMap<double> upper_bounds;$/;"	v
+used	mylib.h	/^    static double used(int id) {$/;"	f	class:Timer
+verify	heap.h	/^    void verify() {$/;"	f	class:BinaryHeap
+version	config.h	/^    string version = "vector";$/;"	m	class:Config
+with_rw_idx	config.h	/^    bool with_rw_idx = false;$/;"	m	class:Config
+xor128	algo.h	/^inline uint32_t xor128(void){$/;"	f
+xshift_drand	algo.h	/^inline static double xshift_drand(){$/;"	f
+xshift_lrand	algo.h	/^inline static unsigned long xshift_lrand(){$/;"	f
+zero_ppr_upper_bound	algo.h	/^double zero_ppr_upper_bound = 1.0;$/;"	v
+~Counter	mylib.h	/^    ~Counter() {$/;"	f	class:Counter
+~Timer	mylib.h	/^    ~Timer() {$/;"	f	class:Timer

@@ -1,0 +1,13 @@
+[0;32m--------------start------------2017-10-14 22:49:05[0m
+[0;32margs:query --algo fora --prefix ../graphdata/fakeGraph/ --dataset 20m50graph --epsilon 0.5 --query_size 5 [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 20000000 m: 1000000000
+load graph finish 
+init parameters graph.n=20000000 
+finihsed initing parameters 
+graph.n=20000000 graph.m=1000000000 
+config.algo=fora 

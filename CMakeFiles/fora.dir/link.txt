@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3 -DNDEBUG -w -pthread -lboost_serialization -lboost_filesystem -lboost_system    CMakeFiles/fora.dir/fora.cpp.o CMakeFiles/fora.dir/mylib.cpp.o CMakeFiles/fora.dir/config.cpp.o  -o fora -rdynamic -lpthread -lboost_serialization -lboost_filesystem -lboost_system 

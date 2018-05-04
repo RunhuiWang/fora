@@ -883,6 +883,161 @@ void bwd_with_hub_oracle(const Graph& graph, int t){
     }
 }
 
+bool *idx0;
+bool *idx1;
+
+void process_queue(int *in_q, int in_size, int* out_q, int& out_size, 
+        const Graph &graph, double rmax, bool* idx, int s, double& rsum) {
+    
+    for (int i = 0; i < in_size; i ++) {
+        // process each node
+        int v = in_q[i];
+        double v_residue = fwd_idx.second[v];
+        fwd_idx.second[v] = 0;
+        if(!fwd_idx.first.exist(v))
+            fwd_idx.first.insert( v, v_residue * config.alpha);
+        else
+            fwd_idx.first[v] += v_residue * config.alpha;
+
+        rsum -= v_residue*config.alpha;
+        int out_neighbor = graph.g[v].size();
+        //printf("residue[%d] = %.15f OutD = %d\n", v, v_residue, out_neighbor);
+        if(out_neighbor == 0){
+            fwd_idx.second[s] += v_residue * (1-config.alpha);
+            if(graph.g[s].size()>0 
+               && fwd_idx.second[s]/graph.g[s].size() >= rmax 
+               && idx[s] != true){
+                
+                idx[s] = true;
+                //printf("out size = %d\n", out_size);
+                out_q[out_size++] = s;
+            }
+            continue;
+        }
+        
+        double avg_push_residual = ((1.0 - config.alpha) * v_residue) / out_neighbor;
+        for (int next : graph.g[v]) {
+            // total_push++;
+            if( !fwd_idx.second.exist(next) )
+                fwd_idx.second.insert( next,  avg_push_residual);
+            else
+                fwd_idx.second[next] += avg_push_residual;
+
+            //if a node's' current residual is small, but next time it got a laerge residual, it can still be added into forward list
+            //so this is correct
+            if ( fwd_idx.second[next]/graph.g[next].size() >= rmax 
+                            && idx[next] != true) {
+                
+                idx[next] = true;//(int) q.size();
+                out_q[out_size++] = next;
+            }
+        }
+
+    }
+}
+
+void forward_local_update_linear(int s, const Graph &graph, double& rsum, double rmax, double init_residual = 1.0){
+    fwd_idx.first.clean();
+    fwd_idx.second.clean();
+
+    printf("rmax = %.15f\n", rmax);
+
+    static vector<bool> idx(graph.n);
+    std::fill(idx.begin(), idx.end(), false);
+
+    // residual[s] = init_residual;
+    fwd_idx.second.insert(s, init_residual);
+    
+    idx[s] = true;
+    
+    // using two queues
+    int *q0 = new int[graph.n];
+    int *q1 = new int[graph.n];
+    int size[2] = {0,0};
+    int indexq = 0;
+    int **queue = new int*[2];
+    queue[0] = q0;
+    queue[1] = q1;
+    // set up the first queue
+    q0[size[0]++] = s;
+    // marking array
+    idx0 = new bool[graph.n];
+    memset(idx0, false, sizeof(bool)*graph.n);
+    int iter = 0;
+    while ( size[indexq] != 0 ) {
+        // empty the other queue
+        size[1-indexq] = 0;
+        memset(idx0, false, sizeof(bool)*graph.n);
+        
+        std::fill(idx.begin(), idx.end(), false);
+        // push the other queue
+        process_queue(queue[indexq],size[indexq], queue[1-indexq],
+                size[1-indexq],graph,rmax, idx0, s, rsum);
+//        printf("in queue size is %d, out queue size is %d\n",
+//                size[indexq], size[1-indexq]);
+        // change the queue
+        indexq = 1-indexq;
+        //if (++iter == 2) break;
+    }
+
+//        int v = q[left];
+//        idx[v] = false;
+//        left++;
+//        double v_residue = fwd_idx.second[v];
+//        fwd_idx.second[v] = 0;
+//        if(!fwd_idx.first.exist(v))
+//            fwd_idx.first.insert( v, v_residue * config.alpha);
+//        else
+//            fwd_idx.first[v] += v_residue * config.alpha;
+//
+//        int out_neighbor = graph.g[v].size();
+//        rsum -=v_residue*config.alpha;
+//        if(out_neighbor == 0){
+//            fwd_idx.second[s] += v_residue * (1-config.alpha);
+//            if(graph.g[s].size()>0 && fwd_idx.second[s]/graph.g[s].size() >= myeps && idx[s] != true){
+//                idx[s] = true;
+//                q.push_back(s);   
+//            }
+//            continue;
+//        }
+
+//        double avg_push_residual = ((1.0 - config.alpha) * v_residue) / out_neighbor;
+//        for (int next : graph.g[v]) {
+//            // total_push++;
+//            if( !fwd_idx.second.exist(next) )
+//                fwd_idx.second.insert( next,  avg_push_residual);
+//            else
+//                fwd_idx.second[next] += avg_push_residual;
+//
+//            //if a node's' current residual is small, but next time it got a laerge residual, it can still be added into forward list
+//            //so this is correct
+//            if ( fwd_idx.second[next]/graph.g[next].size() >= myeps && idx[next] != true) {  
+//                idx[next] = true;//(int) q.size();
+//                q.push_back(next);    
+//            }
+//        }
+//    }
+
+    double r_sum = 0.0;
+    double u_sum = 0.0;
+    printf("queue size is %d\n", left);
+    int count = 0;
+    for (int i = 0; i < fwd_idx.first.m_num; i ++) {
+        if (fwd_idx.first.exist(i)) {
+            count ++;
+            r_sum += fwd_idx.first[i];
+            //printf("reserve on node %d is %.20f\n", i, fwd_idx.first[i]);
+        }
+        if (fwd_idx.second[i] > 0.0) 
+            u_sum += fwd_idx.second[i];
+    }
+    printf("reserve size is %d\n", count);
+    printf("reserve sum is %.15f\n", r_sum);
+    printf("residue sum is %.15f\n", u_sum);
+    printf("total sum is %.15f\n", r_sum + u_sum);
+}
+
+/*
 void forward_local_update_linear(int s, const Graph &graph, double& rsum, double rmax, double init_residual = 1.0){
     fwd_idx.first.clean();
     fwd_idx.second.clean();
@@ -891,6 +1046,9 @@ void forward_local_update_linear(int s, const Graph &graph, double& rsum, double
     std::fill(idx.begin(), idx.end(), false);
 
     double myeps = rmax;//config.rmax;
+
+    // wrh count iterations
+    //int itercount = 0;
 
     vector<int> q;  //nodes that can still propagate forward
     q.reserve(graph.n);
@@ -941,8 +1099,26 @@ void forward_local_update_linear(int s, const Graph &graph, double& rsum, double
             }
         }
     }
-}
 
+    double r_sum = 0.0;
+    double u_sum = 0.0;
+    printf("queue size is %d\n", left);
+    int count = 0;
+    for (int i = 0; i < fwd_idx.first.m_num; i ++) {
+        if (fwd_idx.first.exist(i)) {
+            count ++;
+            r_sum += fwd_idx.first[i];
+            //printf("reserve on node %d is %.20f\n", i, fwd_idx.first[i]);
+        }
+        if (fwd_idx.second[i] > 0.0) 
+            u_sum += fwd_idx.second[i];
+    }
+    printf("reserve size is %d\n", count);
+    printf("reserve sum is %.15f\n", r_sum);
+    printf("residue sum is %.15f\n", u_sum);
+    printf("total sum is %.15f\n", r_sum + u_sum);
+}
+*/
 void forward_local_update_linear_topk(int s, const Graph &graph, double& rsum, double rmax, double lowest_rmax, vector<int>& forward_from){
     double myeps = rmax;
 

@@ -1,0 +1,48 @@
+{
+    "start_time": "2017-10-15 14:51:06",
+    "end_time": "2017-10-15 14:52:54",
+    "command_line": " query --algo fora --prefix ..\/..\/..\/uqswan22\/datasets\/ --dataset livejournal --epsilon 0.5 --query_size 5",
+    "config": {
+        "graph_alias": "livejournal",
+        "action": "query",
+        "alpha": "0.20000000000000001",
+        "pfail": "2.0632982772078375e-07",
+        "epsilon": "0.5",
+        "delta": "2.0632982772078375e-07",
+        "idx": "false",
+        "k": "500",
+        "rand-walk & push cost ratio": "8",
+        "query-size": "5",
+        "algo": "fora",
+        "rmax": "3.9508127216066201e-09",
+        "rmax-scale": "1",
+        "omega": "779670937.61395216",
+        "result-dir": ".\/\/execution\/"
+    },
+    "result": {
+        "n": "4846609",
+        "m": "68475391",
+        "avg query time(s\/q)": "17.282468045799998",
+        "total memory usage(MB)": "1351.192",
+        "total time usage(s)": "86.412340228999994",
+        "total time on rand-walks(s)": "79.589018937999995",
+        "total time on propagation(s)": "6.7612584189999998",
+        "total time on sorting top-k ppr(s)": "0",
+        "total time ratio on rand-walks(%)": "92.103765188030295",
+        "total time ratio on propagation(%)": "7.8244130422600451",
+        "total number of rand-walks": "172445453",
+        "total number of rand-walk idx used": "0",
+        "total usage ratio of rand-walk idx": "0",
+        "topk max absolute error": "-nan",
+        "topk avg absolute error": "-nan",
+        "topk max relative error": "-nan",
+        "topk avg relative error": "-nan",
+        "topk precision": "-nan",
+        "topk recall": "-nan"
+    },
+    "timer": {
+        "3": "86.412340228999994",
+        "5": "6.7612584189999998",
+        "6": "79.589018937999995"
+    }
+}

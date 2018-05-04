@@ -1,0 +1,147 @@
+[0;32m--------------start------------2017-10-08 10:14:33[0m
+[0;32margs:query --algo fora --prefix ../../../uqswan22/datasets/ --dataset twitter --epsilon 0.5 --query_size 5 [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 41652230 m: 1468365182
+load graph finish 
+init parameters graph.n=41652230 
+finihsed initing parameters 
+graph.n=41652230 graph.m=1468365182 
+config.algo=fora 
+query_size=5 
+config.rmax_scale=1 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+1. source node:13243493
+----------------------------- 
+2. source node:13886286
+----------------------------- 
+3. source node:15603577
+----------------------------- 
+4. source node:6895485
+----------------------------- 
+5. source node:92983
+----------------------------- 
+Total cost (s): 3344.99
+88.1895% for random walk cost
+11.7756% for forward push cost
+----------------------------- 
+Average query time (s):668.999
+Memory usage (MB):20632.5
+
+### Timer 
+t=   3  3344.993189  
+t=   5  393.893937  
+t=   6  2949.931501  
+rmax = 0.000000000273328
+queue size is 4565488
+reserve size is 9363598
+reserve sum is 0.893417335413745
+residue sum is 0.106582664585587
+total sum is 0.999999999999332
+rmax = 0.000000000273328
+queue size is 4565488
+reserve size is 6576671
+reserve sum is 0.903756652361653
+residue sum is 0.096243347638521
+total sum is 1.000000000000175
+rmax = 0.000000000273328
+queue size is 4565488
+reserve size is 7962568
+reserve sum is 0.900330153790740
+residue sum is 0.099669846207349
+total sum is 0.999999999998090
+rmax = 0.000000000273328
+queue size is 4565488
+reserve size is 7249933
+reserve sum is 0.900851246239532
+residue sum is 0.099148753759654
+total sum is 0.999999999999186
+rmax = 0.000000000273328
+queue size is 4565488
+reserve size is 15020744
+reserve sum is 0.884099819774661
+residue sum is 0.115900180202429
+total sum is 0.999999999977091
+[0;32m--------------start------------2017-10-15 14:50:39[0m
+[0;32margs:query --algo fora --prefix ../../uqswan22/datasets/ --dataset livejournal --epsilon 0.5 --query_size 5 [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+[0;32m--------------start------------2017-10-15 14:51:06[0m
+[0;32margs:query --algo fora --prefix ../../../uqswan22/datasets/ --dataset livejournal --epsilon 0.5 --query_size 5 [0m
+action: query
+config.epsilon=0.5 
+config.version=vector 
+config.action=query 
+sub constructor 
+init graph n: 4846609 m: 68475391
+load graph finish 
+init parameters graph.n=4846609 
+finihsed initing parameters 
+graph.n=4846609 graph.m=68475391 
+config.algo=fora 
+query_size=5 
+config.rmax_scale=1 
+config.delta=2.0633e-07 
+config.pfail=2.0633e-07 
+config.rmax=3.95081e-09 
+config.omega=7.79671e+08 
+1. source node:1350835
+----------------------------- 
+2. source node:3620920
+----------------------------- 
+3. source node:4766063
+----------------------------- 
+4. source node:3783938
+----------------------------- 
+5. source node:4564366
+----------------------------- 
+Total cost (s): 86.4123
+92.1038% for random walk cost
+7.82441% for forward push cost
+----------------------------- 
+Average query time (s):17.2825
+Memory usage (MB):1351.19
+
+### Timer 
+t=   3  86.412340  
+t=   5  6.761258  
+t=   6  79.589019  
+rmax = 0.000000003950813
+queue size is 4565488
+reserve size is 525331
+reserve sum is 0.968705056012062
+residue sum is 0.031294943987938
+total sum is 1.000000000000000
+rmax = 0.000000003950813
+queue size is 4565488
+reserve size is 121159
+reserve sum is 0.987037687412824
+residue sum is 0.012962312587169
+total sum is 0.999999999999994
+rmax = 0.000000003950813
+queue size is 4565488
+reserve size is 881076
+reserve sum is 0.943642660515337
+residue sum is 0.056357339484677
+total sum is 1.000000000000014
+rmax = 0.000000003950813
+queue size is 4565488
+reserve size is 528500
+reserve sum is 0.953117911462208
+residue sum is 0.046882088537786
+total sum is 0.999999999999995
+rmax = 0.000000003950813
+queue size is 4565488
+reserve size is 1592030
+reserve sum is 0.930327744158672
+residue sum is 0.069672255841317
+total sum is 0.999999999999989
